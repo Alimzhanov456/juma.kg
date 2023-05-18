@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 47px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  .menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .add_job {
+    border: 1px solid #7ACAAA;
+    width: 1172px;
+    height: 1774px;
+    border-radius: 60px;
+    margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .add_job_p {
+    text-align: left;
+    margin-left: 300px;
+  }
+
+  .add_job_input {
+    width: 561px;
+    height: 68px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+
+  .add_job_input_two {
+    width: 561px;
+    height: 188px;
+    border-radius: 15px;
+  }
+
+  footer {
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #55B79D;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  footer img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  footer nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  footer h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    footer nav {
+      margin-top: 10px;
+      order: 3;
+    }
+  }

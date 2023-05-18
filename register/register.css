@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register {
+    width: 360px;
+    height: 457px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.register h1 {
+    color: #4BB298;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    margin-top: 48px;
+}
+
+.register p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.register button {
+    width: 216px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    background-color: #77C9A9;
+    border: none;
+    border-radius: 30px;
+}
